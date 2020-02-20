@@ -2,7 +2,21 @@ Less compiler implementation by socket cooperation for fast compile from another
 
 ## How to use?
 
-**Installation**
+### Installation
+
+Two ways:
+
+**Approach by git** 
+
+Through git should work one of that:
+
+```
+npm install --save https://git@github.com/Sanshain/git_connection/master
+npm install Sanshain/git_connection
+npm install git+https://git@github.com/Sanshain/git_connection.git
+```
+
+**Manual approach** 
 
 Download the package to some path
 
@@ -14,14 +28,14 @@ Then for launch perform next steps:
 * Then enter `node less_connection` and `Enter` one more time
 
 
-**Starting**
+### Starting
 
 * Open terminal, 
 * `cd` to path where package is located
 * Enter `node less_connection` and press `Enter`
 
 
-After that you can connect to `127.0.0.1:9091`. **less_connection** expect filename for translate to less.
+After that you can connect to `127.0.0.1:9091`. **less_connection** expect filename for translate to less and nearby saving.
 
 
 ***
