@@ -2,7 +2,7 @@ Less compiler implementation by socket cooperation for fast compile from another
 
 ## How to use?
 
-** Installation **
+**Installation**
 
 Download the package to some path
 
@@ -13,10 +13,8 @@ Then for launch perform next steps:
 * Enter `npm install` and press `Enter`. Wait until linked packages to be installed 
 * Then enter `node less_connection` and `Enter` one more time
 
----
 
-
-** Starting **
+**Starting**
 
 * Open terminal, 
 * `cd` to path where package is located
