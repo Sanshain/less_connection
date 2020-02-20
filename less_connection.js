@@ -1,6 +1,6 @@
 const fs = require("fs");
 const sock = require('net');
-const less = require('./_just_less')
+const less = require('./_less')
 
 
 var assign         = require('object-assign');

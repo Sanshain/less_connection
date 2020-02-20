@@ -1,8 +1,8 @@
 {
   "name": "less_connection",
   "version": "1.0.0",
-  "description": "less compiler implementation by socket cooperation for fast compile for other paltforms. Faster then watch (by gulp). Created just for development",
-  "main": "index.js",
+  "description": "less compiler implementation by socket cooperation for fast compile for other platforms. Faster then watch (by gulp). Created just for development",
+  "main": "less_connection.js",
   "scripts": {
     "test": "echo \"Test works\" && exit 0"
   },
