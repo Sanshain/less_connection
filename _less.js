@@ -15,10 +15,12 @@ exports.render = async function (str, opts){
 		file.contents = Buffer.from(res.result);
 		file.path = replaceExt(opts.filename, '.css');
 
-
-		fs.writeFileSync(file.path, file.contents)
+	   // видимо, запись в файл происходит очень долго
+		// fs.writeFileSync(file.path, file.contents)
 		
 		console.log('compilled successfull')
+		
+		return file.contents; 				// 'done'
 	/*	
 	}
 	catch(err) {
