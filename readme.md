@@ -11,9 +11,9 @@ Two ways:
 Through git should work one of that:
 
 ```
-npm install --save https://git@github.com/Sanshain/git_connection/master
-npm install Sanshain/git_connection
-npm install git+https://git@github.com/Sanshain/git_connection.git
+npm install --save https://git@github.com/Sanshain/less_connection/master
+npm install Sanshain/less_connection
+npm install git+https://git@github.com/Sanshain/less_connection.git
 ```
 
 **Manual approach** 
